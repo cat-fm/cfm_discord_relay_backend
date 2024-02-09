@@ -1,0 +1,14 @@
+{
+  "name": "cfm_discord_relay_backend",
+  "module": "src/index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@discordeno/bot": "^19.0.0-next.d81b28a"
+  }
+}
